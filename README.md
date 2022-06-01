@@ -47,7 +47,9 @@ This project requires [Node.js](https://nodejs.org/) v10+ to run.
     ```sh
     Files/
     ```
+```sh
 **NOTE: Github deletes Personal access tokens on pushing it to github**
+```
 - Create a Personal access token from Github(You can find a tutorial [here](https://youtu.be/SzrETQdGzBM)) and add it to the 'TOKEN' variable in:
     ```sh
     sever/getObj.js
