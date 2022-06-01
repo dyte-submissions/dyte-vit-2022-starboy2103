@@ -47,6 +47,11 @@ This project requires [Node.js](https://nodejs.org/) v10+ to run.
     ```sh
     Files/
     ```
+**NOTE: Github deletes Personal access tokens on pushing it to github**
+- Create a Personal access token from Github(You can find a tutorial [here](https://youtu.be/SzrETQdGzBM)) and add it to the 'TOKEN' variable in:
+    ```sh
+    sever/getObj.js
+    ```    
 - Now that the dependencies are ready, start execution(for mac and linux) by:
     ```sh
     verck <filename.csv> <dependency>@<version>
