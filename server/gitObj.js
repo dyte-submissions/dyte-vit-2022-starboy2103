@@ -5,7 +5,7 @@ const version = require('./getVersion')
 var URL = '';
 var lefts=''
 var link=''
-const TOKEN = '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';
+const TOKEN = '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';
 
 var options = {
   headers: {

@@ -16,5 +16,6 @@ const input = cli.input;
 (async () => {
 	input.includes(`help`) && cli.showHelp(0);
 	par(input[0])
+	console.log('done')
 	console.log(flags)
 })();
