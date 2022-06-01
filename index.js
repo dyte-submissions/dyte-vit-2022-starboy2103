@@ -7,17 +7,13 @@
  * @author S.Kowshal <https://developers.google.com/profile/u/117155720131955760399>
  */
 
-const init = require('./utils/init');
+const par=require('./server/csvFile')
+
 const cli = require('./utils/cli');
-const log = require('./utils/log');
 
 const input = cli.input;
-const flags = cli.flags;
-const { clear, debug } = flags;
 
 (async () => {
-	init({ clear });
 	input.includes(`help`) && cli.showHelp(0);
-
-	debug && log(flags);
+	par(input[0])
 })();
