@@ -8,12 +8,13 @@
  */
 
 const par=require('./server/csvFile')
+const cli = require('./server/utils/cli');
 
-const cli = require('./utils/cli');
-
+const flags= cli.flags;
 const input = cli.input;
 
 (async () => {
 	input.includes(`help`) && cli.showHelp(0);
 	par(input[0])
+	console.log(flags)
 })();

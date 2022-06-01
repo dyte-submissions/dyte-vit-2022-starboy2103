@@ -1,4 +1,4 @@
-const cli = require('../utils/cli');
+const cli = require('./utils/cli');
 const wr=require('./fileWriter')
 
 const input = cli.input;
